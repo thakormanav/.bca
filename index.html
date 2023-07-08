@@ -15,6 +15,7 @@
        
     
         body{
+            animation: color 25s linear infinite;
             background: rgb(139, 243, 124);
             border-radius: 35px;
             height: 119px;
@@ -25,6 +26,33 @@
             margin-right: 203px;
            
         }
+        @keyframes color{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: rgb(255, 123, 0);
+    }
+    50%{
+        background-color: rgb(247, 5, 5);
+    }
+    70%{
+        background-color: rgb(0, 255, 34);
+    }
+    100%{
+        background-color: rgb(255, 0, 217);
+    }
+    150%{
+        background-color: rgb(255, 55, 0);
+    }
+}
+
+
+
+
+
+
+
         h3:hover{ background:rgb(255, 162, 0);
             border-radius: 100px;
             margin-left: 220px;
@@ -60,14 +88,26 @@ sup{
     color: green;
 }
 H6{
+    animation: chang 25s linear infinite;
     text-align: center;
     font-size: 50PX;
     margin-top: 10px;
-    color: rgb(12, 133, 238);
+    color: rgb(246, 248, 249);
 
   background:url();
 
 }
+@keyframes chang {
+    0%{
+        color: aliceblue;
+    }
+    25%{
+        color: rgb(16, 132, 233);
+    }
+    50%{
+        color: rgb(15, 17, 19);
+    }
+}   
 
 
 
@@ -76,7 +116,7 @@ marquee{
     margin-right: 20px;
     margin-top: 10px;
     border-radius: 45px;
-    width: ;
+    
 }
 
 b{
