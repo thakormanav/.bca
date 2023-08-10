@@ -19,22 +19,43 @@
             width: 170px;
             text-align: center;
         background: pink;
-        border-radius:45px;
+       
          font-size: 45px;
          width:250PX;
          height: 95PX;
         cursor: pointer;
         color:rgb(19, 7, 246) ;
         animation: free 6s linear infinite;
-        
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
         
         }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0)
+            }
+
+            25% {
+                transform: translateX(25px);
+            }
+
+            50% {
+                transform: translateX(-25px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+        }
+
         
         button:hover{
             color: red;
             background: rgb(41, 242, 5);
-            border-radius: 1px;
+            border-radius:45px;
             cursor: pointer;
+            animation:  shake  0.500s;
             
         }
         B{
@@ -51,13 +72,13 @@ width: 965px;
 }
 @keyframes free {
     0%{
-        color: rgb(249, 7, 7);
+        color: rgb(12, 0, 2);
     }
     25%{
         color: rgb(0, 0, 0);
     }
     50%{
-        color: rgb(94, 3, 231);
+        color: rgb(231, 3, 220);
     }
 }
 
@@ -147,12 +168,12 @@ img{
    <div class="mnb"> <table align="center"  ><tr><th>
         
        
-    <a href="k2.html"><button onclick="myfunction()"><b><i>cs</i></b></button></a><br>
-    <a href="k2.html"><button onclick="myfunction()"><b><i>wd</i></b></button></a><br>
-    <a href="k2.html"><button onclick="myfunction()"><b><i>mcp</i></b></button></a><br>
+    <a href="k2.html"><button onclick="myfunction()"><b><i>DS</i></b></button></a><br>
+    <a href="k2.html"><button onclick="myfunction()"><b><i>OS</i></b></button></a><br>
+    <a href="k2.html"><button onclick="myfunction()"><b><i>DET</i></b></button></a><br>
 
-    <a href="k2.html"><button onclick="myfunction()"><b><i>Ldp</i></b></button></a><br>
-    <a href="k2.html"><button onclick="myfunction()"><b><i>Dbms</i></b></button></a><br>
+    <a href="k2.html"><button onclick="myfunction()"><b><i>PHP</i></b></button></a><br>
+    <a href="k2.html"><button onclick="myfunction()"><b><i>.NET</i></b></button></a><br>
 
 </th>
 
