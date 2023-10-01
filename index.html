@@ -1,4 +1,4 @@
-
+<?php include("c.php");     ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -227,6 +227,11 @@
             font-size: 35px;
         }
 
+        input.btn{
+            margin-top: 50px;
+        }
+        
+
         input:hover {
             border: 5px solid black;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -238,6 +243,14 @@
             font-size: 55px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+        }
+        .f{
+            font-size: 25px;
+         background-color: aqua;
+         font-size: 150px;
+            
+           
+            margin-top: 20;
         }
     </style>
 
@@ -284,7 +297,7 @@
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
         <label for="password">Password:</label> <input type="password" id="password" name="pwd" required> <br><br>
-        <input type="file">
+       <div class="f"><input type="file"></div>
         <input type="submit" value="Login" class="btn" name="btn">
         <input type="reset" name="" id=""></div>
     </form>
@@ -300,5 +313,3 @@
 
 </html>
 
-
-<?php
