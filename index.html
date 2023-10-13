@@ -13,7 +13,7 @@
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            background-image: linear-gradient(rgb(203, 90, 231), rgb(145, 64, 64), pink, rgb(203, 39, 184));
+          background-color: aliceblue;
         }
 
         .slider {
@@ -81,13 +81,28 @@
         }
 
         h1 {
-            margin-left: 150px;
+            margin-left: 230px;
             margin-top: 600px;
-            font-size: 70px;
+            font-size: 50px;
             padding: 0;
             position: absolute;
-            color: azure;
+            color: rgb(17, 5, 107);
+            animation: re 1s linear infinite;
            
+        }
+        @keyframes re {
+            0%{
+                margin-top: 620px;
+            }
+            20%{
+                margin-top: 600px;
+            }
+            0%{
+                margin-top: 620px;
+            }
+            -20%{
+                margin-top: 600px;
+            }
         }
 
         button:hover {
@@ -98,7 +113,7 @@
 
         li {
             font-size: 35px;
-            color: white;
+            color: rgb(188, 11, 11);
         }
 
         @keyframes mnv {
@@ -157,7 +172,7 @@
         .io {
             color: black;
             position: absolute;
-            color: white;
+            color: rgb(212, 11, 11);
             text-align: center;
             position: absolute;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -170,7 +185,7 @@
             margin-left: 320px;
             color: black;
             position: absolute;
-            color: white;
+            color: rgb(218, 12, 12);
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
@@ -209,7 +224,7 @@
             margin-left: 117px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             position: absolute;
-            color: white;
+            color: rgb(198, 5, 5);
         }
 
         marquee {
@@ -398,5 +413,4 @@
 </body>
 
 </html>
-
 
