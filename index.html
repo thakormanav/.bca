@@ -8,12 +8,61 @@
         }
     </script>
     <style>
+
+@media (min-width:500px) and (max-width:1200px){
+ul{
+    font-size: 25px;
+}
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(252, 248, 248);
+    height: 45px;
+justify-content: center;
+    border-radius: 5px;
+
+}
+
+
+ul li a{
+    color: rgb(209, 7, 7);
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:25px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    position: relative;
+    transform: all 15s;
+   
+}
+
+a:hover{
+
+border-radius: 15px;    background-color: rgb(24, 1, 227);
+    color: white;
+    border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
         body {
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-color: aliceblue;
         }
+
 
         .slider {
             width: 95%;
@@ -31,7 +80,6 @@
 
             background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
         }
-
         @keyframes kl {
 
             0% {
@@ -64,12 +112,6 @@
 
 
 
-
-        .lo {
-            margin-left: 200px;
-            margin-top: 700px;
-            position: fixed;
-        }
 
         h1 {
             margin-left: 170px;
@@ -138,11 +180,7 @@
 
         }
 
-        table {
-            color: aliceblue;
-            font-size: 25px;
-        }
-
+       
         table.th {
             margin-left: 150px;
             position: fixed;
@@ -204,7 +242,7 @@
             color: rgb(11, 4, 4);
             z-index: 5;
             width: 250px;
-            height:fit-content;
+            height: fit-content;
             margin-left: 95px;
             margin-top: 64px;
             position: absolute;
@@ -340,28 +378,12 @@
 
         }
 
-        nav {
-            background-image: linear-gradient(orange, orangered);
-            border: 5px solid rgb(1, 23, 1);
-            height: 70px;
-            border-radius: 25px;
-            font-weight: bolder;
-
-        }
-
-        button {
-            background: orangered;
-            color: white;
-            margin-top: 550px;
-            height: 50px;
-            width: 115px;
-            font-weight: 600;
-            font-size: 17px;
-            box-shadow: 0 5px 10px orangered;
-            border-radius: 3%;
-            border: 2px double rgba(255, 255, 255, 0);
-            cursor: pointer;
-            
+        .btn{
+            color: red;
+            background-color: powderblue;
+            width: 100px;
+             text-decoration: none;
+      
         }
     </style>
 
@@ -370,23 +392,13 @@
 
 <body>
 
-    <nav>
-        <ul>
-            <a href="index.html">
-                <a href="index.html">
-                    <li class="io">HOME</li>
-                </a>
-            </a>
-            <details class="kl">
-                <summary>ABOUT</summary>
-                <a href="https://studentportal.silveroakuni.ac.in/">
-                    <p> <i>STUDENT PORTAL</i></p>
-                </a>
-            </details>
-            <li class="fg">FACULTY DETAILS</li>
-
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="index.com">home</a></li>
+        <li><a href="https://studentportal.silveroakuni.ac.in/">student portal</a></li>
+        <li><a href="#">faculty list</a></li>
+        <li><a href="https://median.co/share/ejwbrp">application</a></li>
+        <li><a href="#">login</a></li>
+    </ul>
 
     <br>
     <br>
@@ -438,7 +450,7 @@
 
 
 
-    <a href="https://median.co/share/ejwbrp"> <button>download Application</button></a>
+
 </body>
 
 </html>
