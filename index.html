@@ -2,37 +2,52 @@
 <html lang="en">
 
 <head>
-    <link rel="shoetcut icon" href="bhaio.jpg">
-    <script>
-        function myfunction() {
-            alert("go on page")
-        }
-    </script>
     <style>
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style-type: none;
+            border: 2px solid rgb(212, 0, 0);
+            text-shadow: 0 1px 1px black;
+            height: 45px;
+            justify-content: center;
+            border-radius: 5px;
+           
+
+        }
 
 
+        ul li a {
+            color: rgb(209, 7, 7);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            padding: 5px 10px;
+            margin: 0 10px;
+            position: relative;
+            transform: all 15s;
+           
 
+        }
 
+        a:hover {
 
-
-
-
-
-        body {
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-color: aliceblue;
+            border-radius: 10px;
+            background-color: rgb(73, 29, 155);
+            color: white;
+            border: 1px solid black;
+            font-size: 15px;
         }
 
 
         .slider {
-            width: 95%;
+            width: 85%;
             border: 8px solid black;
-            height: 450px;
+            height: 150px;
            position: fixed;
             left: 50%;
-            margin-top: 150px;
+            margin-top: 20  px;
             top: 15%;
             position: absolute;
             transform: translate(-50%, -50%);
@@ -75,378 +90,334 @@
 
 
 
-        h1 {
-            margin-left: 170px;
-            margin-top: 600px;
-            font-size: 50px;
-            padding: 0;
-            position: absolute;
-            color: rgb(17, 5, 107);
-            animation: re 1s linear infinite;
-            text-shadow: 0 3px 10px rgb(17, 5, 107);
 
-        }
 
-        @keyframes re {
-            0% {
-                margin-top: 620px;
+
+
+
+
+
+
+
+
+        @media (MIN-WIDTH:668PX) AND (MAX-WIDTH:812PX) {
+
+            ul li a {
+                font-size: 18PX;
             }
 
-            20% {
-                margin-top: 600px;
+            a:hover {
+
+                font-size: 18px;
+            }
+.slider{
+            width: 95%;
+            border: 8px solid black;
+            height: 350px;
+         
+            left: 50%;
+            
+            top: 25%;
+        }
+
+
+    }
+
+
+
+
+        @media (MIN-WIDTH:727PX) AND (MAX-WIDTH:753PX) {
+
+            ul li a {
+                font-size: 17PX;
             }
 
-            0% {
-                margin-top: 620px;
-            }
+            a:hover {
 
-            20% {
-                margin-top: 600px;
+                font-size: 16px;
             }
         }
-
-
-
-        li {
-            font-size: 35px;
-            color: rgb(17, 5, 107);
-        }
-
-        @keyframes mnv {
-            0% {
-                background-image: linear-gradient(red, blue, yellow);
-            }
-
-            5% {
-                background-image: linear-gradient(blue, yellow, red);
-            }
-
-            15% {
-                background-image: linear-gradient(yellow, red, blue);
-            }
-
-            30% {
-                background-image: linear-gradient(rgb(230, 230, 175), rgb(56, 13, 13), rgb(81, 81, 102));
-            }
-
-        }
-
-        b {
-            font-size: 50px;
-        }
-
-        img {
-            margin-top: 200px;
-            height: 250PX;
-            padding: 0;
-
-        }
-
-       
-        table.th {
-            margin-left: 150px;
-            position: fixed;
-        }
-
-        .io {
-            color: black;
-            position: absolute;
-            color: rgb(17, 5, 107);
-            text-align: center;
-            position: absolute;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-        }
-
-
-
-        .fg {
-
-            margin-left: 320px;
-            color: black;
-            position: absolute;
-            color: rgb(17, 5, 107);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        summary {
-
-            font-size: 35px;
-            margin-left: 117px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            position: absolute;
-            color: rgb(17, 5, 107);
-
-        }
-
-        .io:hover {
-            color: blue;
-            box-shadow: 0 0 5px black;
-
-        }
-
-        .fg:hover {
-            color: blue;
-
-
-            box-shadow: 0 0 5px black;
-        }
-
-        summary:hover {
-            box-shadow: 0 0 5px black;
-            color: blue;
-        }
-
-        p {
-            font-size: 30px;
-            background-image: linear-gradient(rgb(220, 220, 12), rgb(183, 100, 100));
-            color: rgb(11, 4, 4);
-            z-index: 5;
-            width: 250px;
-            height: fit-content;
-            margin-left: 95px;
-            margin-top: 64px;
-            position: absolute;
-            text-align: center;
-            border-radius: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-
-
-
-        marquee {
-            margin-top: 1200px;
-            position: absolute;
-
-        }
-
-        .f {
-            font-size: 25px;
-            background-color: aqua;
-            font-size: 150px;
-
-
-            margin-top: 20;
-        }
-
-        @keyframes yu {
-            0% {
-                box-shadow: 0 0 40px rgb(40, 255, 2);
-            }
-
-            70% {
-                box-shadow: 0 0 30px rgba(27, 3, 248, 0.182);
-            }
-
-            100% {
-                box-shadow: 0 0 30px rgb(236, 2, 177);
-            }
-
-        }
-
-        .rt {
-            background-image: linear-gradient(orange, orangered);
-            border: 2px solid rgba(255, 255, 255, 0.507);
-            border-radius: 15px;
-            box-shadow: 0 0 5px black;
-            height: 600px;
-            width: 850px;
-            margin-left: 55px;
-            margin-top: 750px;
-            position: absolute;
-            text-shadow: 0 0 2px black;
-            animation: yu 5s linear infinite;
-            font-weight: bolder;
-
-        }
-
-        .rt9 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 650px;
-            margin-top: 400px;
-            color: rgb(248, 255, 107);
-
-        }
-
-        .rt9:hover {
-            background-color: black;
-        }
-
-        .rt1 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 150px;
-            margin-top: 15px;
-
-        }
-
-        .rt2 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 400px;
-            margin-top: 15px;
-
-            height: 25px;
-
-        }
-
-        .rt3 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 650px;
-            margin-top: 15px;
-
-        }
-
-        .rt4 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 150px;
-            margin-top: 205px;
-        }
-
-        .rt5 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 400px;
-            margin-top: 205px;
-            height: 25px;
-
-        }
-
-        .rt6 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 650px;
-            margin-top: 205px;
-            position: absolute;
-        }
-
-        .rt7 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 150px;
-            margin-top: 400px;
-        }
-
-        .rt8 {
-            font-size: 120px;
-            position: absolute;
-            margin-left: 400px;
-            margin-top: 400px;
-            height: 25px;
-
-        }
-
-
-
-
+.slider{
+            width: 95%;
+            border: 8px solid black;
+            height: 350px;
+         
+            left: 50%;
+            
+            top: 24%;
         
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-    border: 2px solid rgb(212, 0, 0);
-   text-shadow: 0 1px 1px black;
-    height: 45px;
-justify-content: center;
-    border-radius: 5px;
-
-}
+        }
 
 
-ul li a{
-    color: rgb(209, 7, 7);
-    text-decoration: none;
-    text-transform:uppercase;
-    font-size:25px;
-    padding: 5px 10px;
-    margin: 0 10px;
-    position: relative;
-    transform: all 15s;
-   
-}
 
-a:hover{
 
-border-radius: 10px;    background-color:red;
-    color: white;
-    border: 5px solid black;
-    font-size: 15px;
-}
+
+
+        @media (MIN-WIDTH:692PX) AND (MAX-WIDTH:727PX) {
+
+            ul li a {
+                font-size: 16PX;
+            }
+
+            a:hover {
+
+                font-size: 15px;
+            }
+        }
+
+
+
+
+
+        @media (MIN-WIDTH:663PX) AND (MAX-WIDTH:692PX) {
+
+            ul li a {
+                font-size: 15PX;
+            }
+
+            a:hover {
+
+                font-size: 14px;
+            }
+        }
+
+
+
+
+
+
+
+        @media (MIN-WIDTH:633PX) AND (MAX-WIDTH:663PX) {
+
+            ul li a {
+                font-size: 14PX;
+            }
+
+            a:hover {
+
+                font-size: 13px;
+            }
+        }
+
+
+
+
+
+        @media (MIN-WIDTH:604PX) AND (MAX-WIDTH:633PX) {
+
+            ul li a {
+                font-size: 13PX;
+            }
+
+            a:hover {
+
+                font-size: 12px;
+            }
+        }
+
+
+
+
+
+        @media (MIN-WIDTH:575PX) AND (MAX-WIDTH:604PX) {
+
+            ul li a {
+                font-size: 12PX;
+            }
+
+            a:hover {
+
+                font-size: 11px;
+            }
+        }
+
+
+
+
+
+        @media (MIN-WIDTH:545PX) AND (MAX-WIDTH:575PX) {
+
+            ul li a {
+                font-size: 11PX;
+            }
+
+            a:hover {
+
+                font-size: 10px;
+            }
+        }
+
+
+
+
+
+
+
+        @media (MIN-WIDTH:518PX) AND (MAX-WIDTH:545PX) {
+
+            ul li a {
+                font-size: 10PX;
+            }
+
+            a:hover {
+
+                font-size: 9px;
+            }
+        }
+
+
+
+
+
+
+        @media (MIN-WIDTH:487PX) AND (MAX-WIDTH:518PX) {
+
+            ul li a {
+                font-size: 9PX;
+            }
+
+            a:hover {
+
+                font-size: 8px;
+            }
+        }
+
+
+
+
+
+
+
+
+        @media (MIN-WIDTH:460PX) AND (MAX-WIDTH:487PX) {
+
+            ul li a {
+                font-size: 8PX;
+            }
+
+            a:hover {
+
+                font-size: 7px;
+            }
+        }
+
+
+
+
+
+
+
+        @media (MIN-WIDTH:427PX) AND (MAX-WIDTH:460PX) {
+
+            ul li a {
+                font-size: 7PX;
+            }
+
+            a:hover {
+
+                font-size: 6px;
+            }
+        }
+
+
+
+
+
+
+        @media (MIN-WIDTH:397PX) AND (MAX-WIDTH:427PX) {
+
+            ul li a {
+                font-size: 6PX;
+            }
+
+            a:hover {
+
+                font-size: 5px;
+            }
+
+        }
+
+
+
+
+
+
+        @media (MIN-WIDTH:367PX) AND (MAX-WIDTH:397PX) {
+
+            ul li a {
+                font-size: 5PX;
+            }
+
+            a:hover {
+
+                font-size: 4px;
+            }
+        }
+
+
+
+
+
+
+        @media (MIN-WIDTH:300PX) AND (MAX-WIDTH:367PX) {
+
+            ul li a {
+                font-size: 4PX;
+
+            }
+
+            a:hover {
+
+                font-size: 3px;
+            }
+
+        }
+
+
+
 
 
 
     </style>
 
-    <title>bca books</title>
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-    
 
     <ul>
-        <b><li><a href="pass.html">home</a></li></b>
-        <b><li><a href="https://studentportal.silveroakuni.ac.in/">student portal</a></li></b>
-       <b> <li><a href="#">faculty list</a></li></b>
-        <b><li><a href="https://median.co/share/ejwbrp">application</a></li></b>
-        <b><li><a href="#">login</a></li></b>
-        </ul>
+        <b>
+            <li><a href="pass.html">home</a></li>
+        </b>
+        <b>
+            <li><a href="https://studentportal.silveroakuni.ac.in/">student portal</a></li>
+        </b>
+        <b>
+            <li><a href="#">faculty list</a></li>
+        </b>
+        <b>
+            <li><a href="https://median.co/share/ejwbrp">application</a></li>
+        </b>
+        <b>
+            <li><a href="#">login</a></li>
+        </b>
+    </ul>
+    <BR>
+        <BR>
 
-    <br>
-    <br>
-
-    <br> <br>
-
-    <br>
-
-
-
-
-
-
+            <BR>
+                <BR>
+                    <BR>
 
     <div class="slider"></div>
-
-    <h1>PRESS 9 FOR EXPLORE BCA </h1>
-
-    <div class="rt">
-        <div class="rt1">1</div>
-        <div class="rt2">2</div>
-        <div class="rt3">3</div>
-        <div class="rt4">4</div>
-        <div class="rt5">5 </div>
-        <div class="rt6">6</div>
-        <div class="rt7">7</div>
-        <div class="rt8">8</div>
-        <a href="k0.1.html">
-            <div class="rt9" onclick="myfunction()">9</div>
-        </a>
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    <marquee behavior="" direction="right" scrollamount="25">
-        ________________________________________________________
-        <img src="school pic.gif" alt="">
-        _________________________________________________________________
-    </marquee>
-
-
-
-
 </body>
 
 </html>
