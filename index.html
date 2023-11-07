@@ -1,93 +1,1240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><style>
-    ul{
-            
-        
-        margin:0;
-        padding: 10px;
-        
-    }
-li:hover{
-    background-color: blue;
-    color: white;
-}
-    li{
-    
-      
-    
-        margin-top: 30px;
-       box-shadow: 0 0 5px black;
-        width: 200px;
-        height: 40px;   
-       display:flex;
-       border-radius:10px;
-     justify-content: center;
-     text-align: center;
-        color: rgb(210, 3, 3);
-        font-size:25px;
-        opacity: 100%;
-    } 
-       
-    
 
-    details{
-        margin: 0;
-        padding: 0;
-        font-size: 15px;
-       
-    }
-a{
-    text-decoration: none;
-}
+<head>
+    <style>
+        body {
+            background-color: white;
+        }
 
-    @media (min-width:800px)and (max-width:1000px) {
+        @keyframes FONT {
+            0% {
+                color: black;
+                text-shadow: 0 0 5PX rgb(255, 255, 255);
+            }
 
-        
-    li{
-        margin-top: 30px;
-       box-shadow: 0 0 5px black;
-        width: 200px;
-        height: 40px;   
-       display:flex;
-       border-radius:10px;
-     justify-content: center;
-     text-align: center;
-        color: rgb(252, 237, 237);
-        font-size:30px;
-        opacity: 100%;
-    } 
+            10% {
+                color: white;
+                text-shadow: 0 0 5PX BLACK;
+            }
 
-    li:hover{
-        background-color: rgb(48, 3, 226);
-    }
-    .ul{
-        background-color: brown;
-        width:230px;
-        height: 350px;
-        border-radius: 15px;
-        
-    }
+            20% {
+                color: black;
+                text-shadow: 0 0 5PX WHITE;
+            }
 
-    a{
-        text-decoration: none;
-    }
-    }
-</style>
+            30% {
+                color: white;
+                text-shadow: 0 0 5PX BLACK;
+            }
+
+            40% {
+                color: black;
+                text-shadow: 0 0 5PX WHITE;
+
+            }
+
+            50% {
+                color: black;
+                text-shadow: 0 0 5PX WHITE;
+            }
+
+            50% {
+                color: white;
+                text-shadow: 0 0 5PX BLACK;
+            }
+
+            40% {
+                color: black;
+                text-shadow: 0 0 5PX WHITE;
+            }
+
+            30% {
+                color: white;
+                text-shadow: 0 0 5PX BLACK;
+            }
+
+            20% {
+                color: black;
+                text-shadow: 0 0 5PX WHITE;
+
+            }
+
+        }
+
+        ul {
+
+
+            margin: 0;
+            padding: 10px;
+
+        }
+
+        li:hover {
+            background-color: blue;
+            color: white;
+        }
+
+
+
+
+        li {
+            margin-top: 30px;
+            box-shadow: 0 0 5px black;
+            width: 200px;
+            height: 40px;
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            text-align: center;
+            color: rgb(210, 3, 3);
+            font-size: 25px;
+            opacity: 100%;
+        }
+
+
+
+
+
+        a {
+            text-decoration: none;
+        }
+
+        @keyframes kl {
+
+            0% {
+                background-image: url(https://www.collegebatch.com/static/clg-gallery/silver-oak-university-college-of-liberal-studies-ahmedabad-220937.jpg);
+            }
+
+            20% {
+                background-image: url(https://www.collegebatch.com/static/clg-gallery/silver-oak-university-college-of-liberal-studies-ahmedabad-220937.jpg);
+            }
+
+            40% {
+                background-image: url(https://static.zollege.in/public/college_data/images/campusimage/168501782028.png);
+            }
+
+            60% {
+                background-image: url(https://www.vibesofindia.com/wp-content/uploads/2022/09/1-5.jpg);
+
+            }
+
+            80% {
+                background-image: url(https://admission.silveroakuni.ac.in/images/celeb_event.png);
+            }
+
+            100% {
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_1.webp);
+            }
+        }
+
+
+        details {
+            border-radius: 0px 15px 15px 0px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+
+
+        @media (min-width:900px)and (max-width:1000px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 245px;
+                font-size: 50px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                animation: FONT 7S linear infinite;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 77%;
+                border: 2px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 600px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+
+        }
+
+
+        @media (min-width:800px)and (max-width:900px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 245px;
+                font-size: 50px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 80%;
+                border: 3px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 600px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+
+        }
+
+        @media (min-width:730px)and (max-width:800px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 235px;
+                z-index: 0;
+                font-size: 48px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 80%;
+                border: 3px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 530px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+        @media (min-width:705px)and (max-width:730px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 190px;
+                font-size: 50px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 80%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 530px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+        @media (min-width:615px)and (max-width:705px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 150px;
+                font-size: 45px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 85%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 500px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:560px)and (max-width:615px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 148px;
+                font-size: 40px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 90%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 530px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+        @media (min-width:525px)and (max-width:560px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 24px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-left: 165px;
+                font-size: 35px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 95%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 500px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:510px)and (max-width:525px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 23px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-top: 15PX;
+                margin-left: 150px;
+                font-size: 35px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 95%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 500px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:455px)and (max-width:510px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 20px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+                display: flex;
+                margin-top: 15PX;
+                margin-left: 145px;
+                font-size: 30px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 100%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 480px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+
+        @media (min-width:420px)and (max-width:455px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 20px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+
+                margin-top: 15PX;
+                margin-left: 130px;
+                font-size: 28px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 105%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 450px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:395px)and (max-width:420px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 18px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+
+                margin-top: 15PX;
+                margin-left: 120px;
+                font-size: 26px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 108%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 450px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:360px)and (max-width:395px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 20px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+
+                margin-top: 15PX;
+                margin-left: 118px;
+                font-size: 23px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 23px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 110%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 430px;
+                margin-top: 200px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+
+        @media (min-width:330px)and (max-width:360px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 20px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+
+                margin-top: 20px;
+                margin-left: 118px;
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 110%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 430px;
+                margin-top: 190px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+
+        @media (min-width:300px)and (max-width:330px) {
+
+
+            li {
+                margin-top: 30px;
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 40px;
+                display: flex;
+                border-radius: 0px 20PX 20PX 0PX;
+                justify-content: center;
+                text-align: center;
+                color: rgb(35, 32, 32);
+                font-size: 20px;
+                z-index: 1;
+                opacity: 100%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            li:hover {
+                background-color: rgb(48, 3, 226);
+            }
+
+            .ul {
+                background-color: rgb(255, 255, 255);
+                width: 225px;
+                height: 333px;
+                border-radius: 5px;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            h1 {
+                position: absolute;
+
+                margin-top: 25px;
+                margin-left: 115px;
+                font-size: 18px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            details {
+                margin: 0;
+                padding: 0;
+                width: 105PX;
+
+                height: 27PX;
+                font-size: 25px;
+                background-image: linear-gradient(rgb(168, 195, 168), rgb(56, 155, 143));
+
+            }
+
+            .slider {
+                width: 115%;
+                border: 5px solid black;
+                height: 250px;
+                position: absolute;
+                margin-left: 430px;
+                margin-top: 190px;
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-size: 100% 100%;
+                animation: kl 15s linear infinite;
+                box-shadow: 0 0 15px white;
+
+                background-image: url(https://silveroakuni.ac.in/upload/images/slider/m_12.webp)
+            }
+
+
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-     <details>
+    <h1>Silver ouk university...</h1><br>
+    <details><BR>
+
         <div class="ul">
-<ul>
- <a href="index.html"><li>HOME</li></a>
-<li>Student Portal</li>
-  <li>Fecalty list</li>
-  <li>Login</li>
-</ul>
-</div>
-</details>
+            <ul>
+                <a href="index.html">
+                    <li>💒
+                        HOME</li>
+                </a>
+                <li>📱
+                    Student Portal</li>
+                <li>📧
+
+                    Fecalty list</li>
+                <li>💎
+                    Login</li>
+            </ul>
+        </div>
+    </details>
+    <div class="slider"></div>
+
+
+
+    <br>
+    <br>
+    <HR>
 </body>
+
 </html>
